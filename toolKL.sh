@@ -1,3 +1,7 @@
+apt-get install git -y
+apt-get install vim -y
+
+
 apt-get install chkrootkit -y
 mkdir chkrootkit
 cd chkrootkit
@@ -10,8 +14,6 @@ Run It
 >chkrootkit
 "> Install-Run.txt
 cd ..
-
-apt-get install git -y
 
 git clone https://github.com/Und3rf10w/kali-anonsurf
 cd kali-anonsurf
