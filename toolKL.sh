@@ -44,3 +44,22 @@ Update It
 >apt-get upgrade wget -y
 "> Run.txt
 cd ..
+
+git clone https://github.com/4w4k3/BeeLogger
+cd BeeLogger
+./install.sh
+touch Install-Run.txt
+echo "
+Install
+>git clone https://github.com/4w4k3/BeeLogger
+>cd BeeLogger 
+>./install.sh
+
+Run It
+>python bee.py
+Bee>1
+gmail username:
+gmail password:
+y
+"> Install-Run.txt
+cd ..
