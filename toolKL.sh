@@ -47,21 +47,16 @@ Update It
 "> Run.txt
 cd ..
 
-git clone https://github.com/4w4k3/BeeLogger
-cd BeeLogger
-./install.sh
-touch Install-Run.txt
+mkdir vpnbook
+cd vpnbook
+touch Download-Run.txt
 echo "
-Install
->git clone https://github.com/4w4k3/BeeLogger
->cd BeeLogger 
->./install.sh
+Download->
+  Go to www.vpnbook.com and download a bundle you want
 
-Run It
->python bee.py
-Bee>1
-gmail username:
-gmail password:
-y
-"> Install-Run.txt
+Run It->
+  Extraxt it and change directory to that folder 
+  and type
+  >sudo openvpn vpnbook-euro2-udp25000.ovpn
+"> Download-Run.txt
 cd ..
