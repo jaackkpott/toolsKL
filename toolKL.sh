@@ -60,3 +60,16 @@ Run It->
   >sudo openvpn vpnbook-euro2-udp25000.ovpn
 "> Download-Run.txt
 cd ..
+
+mkdir macchanger
+cd macchanger
+touch Run.txt
+echo "
+Run It->
+  >macchanger --help
+  >macchanger -s eth0  //Show the current MAC address
+  >macchanger -a eth0  //change the MAC address to same kind of device
+  >macchanger -A eth0  //change the MAC address to any kind of device
+  >macchanger -p eth0  //reset to the default
+"> Run.txt
+cd ..
